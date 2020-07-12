@@ -49,7 +49,7 @@ def scan_ports(host, start_port, end_port, protocol):
 			except socket.timeout:
 				print("Request Timed out - Port not open")		
                 
-#parsing stuff you dont have to change
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description = 'Remote Port Scanner')
     parser.add_argument('--host', action="store", dest="host", default='127.0.0.1')

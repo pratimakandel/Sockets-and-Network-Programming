@@ -54,7 +54,7 @@ def build_packet():
     header = struct.pack("bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, 1)
     packet = header + data
     return packet
-    # Fill in end
+
 
 
 def get_route(hostname):

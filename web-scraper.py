@@ -5,6 +5,10 @@ import urllib.request
 import re
 import urllib
 
+"""
+Author- Pratima Kandel
+"""
+
 seen = list()
 x = 0
 def search_links(url, depth):
